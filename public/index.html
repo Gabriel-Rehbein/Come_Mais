@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lancheria Come Mais</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <h1>Lancheria Come Mais</h1>
+
+  <!-- CRUD de Comidas -->
+  <section>
+    <h2>Gerenciar Comidas</h2>
+    <form id="form-comida">
+      <input type="text" id="nome-comida" placeholder="Nome da comida" required>
+      <input type="text" id="ingredientes-comida" placeholder="Ingredientes" required>
+      <input type="number" id="preco-comida" placeholder="Preço" required>
+      <button type="submit">Adicionar Comida</button>
+    </form>
+    <ul id="lista-comidas"></ul>
+  </section>
+
+  <!-- CRUD de Clientes -->
+  <section>
+    <h2>Gerenciar Clientes</h2>
+    <form id="form-cliente">
+      <input type="text" id="nome-cliente" placeholder="Nome do cliente" required>
+      <input type="email" id="email-cliente" placeholder="Email" required>
+      <button type="submit">Adicionar Cliente</button>
+    </form>
+    <ul id="lista-clientes"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
